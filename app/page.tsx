@@ -146,7 +146,7 @@ export default function Home() {
             </tbody>
           </table>
         </div>
-        <div className='flex w-full justify-end mt-5'>
+        <div className='flex w-full justify-end mt-5 mb-10'>
           <button className='btn btn-sm btn-wide bg-orange-alta hover:bg-orange-alta outline-none border-none text-white hover:scale-105' onClick={handleSimpan}>Simpan</button>
         </div>
         {jsonOutput && (
